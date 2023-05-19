@@ -5,7 +5,7 @@ include("admin/config/koneksi.php");
 session_start();
 $current_id = $_SESSION['current_id'];
 
-$sql = 'SELECT id_pendaftar, nama_siswa, tempat, tgl_lahir, kampung, rtrw, desa, kecamatan, asal_sklh FROM ppdb WHERE id_pendaftar=' . $current_id;
+$sql = 'SELECT id, nama_siswa, tempat, tgl_lahir, kampung, rtrw, desa, kecamatan, asal_sklh FROM ppdb WHERE id=' . $current_id;
 $query    = mysqli_query($conn, $sql);
 $result   = mysqli_fetch_array($query);
 ?>
@@ -41,7 +41,7 @@ $result   = mysqli_fetch_array($query);
             <tr>
                 <td style="width: 30%;">No Peserta</td>
                 <td style="width: 5%;">:</td>
-                <td style="width: 65%;"><?php echo $result['id_pendaftar'] ?></td>
+                <td style="width: 65%;"><?php echo $result['id'] ?></td>
             </tr>
             <tr>
                 <td style="width: 30%;">Nama</td>

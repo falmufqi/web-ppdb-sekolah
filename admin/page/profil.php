@@ -34,9 +34,8 @@ include "pondasi/kiri.php";
                     <div class="box-header with-border">
                         <h4 class="box-title">Profil</h4>
                         <ul class="box-controls pull-right">
-                            <li><a class="box-btn-close" href="#"></a></li>
+                            <li><a class="box-btn-close" href="index.php"></a></li>
                             <li><a class="box-btn-slide" href="#"></a></li>
-                            <li><a class="box-btn-fullscreen" href="#"></a></li>
                         </ul>
                     </div>
                     <!-- /.box-header -->
@@ -45,7 +44,7 @@ include "pondasi/kiri.php";
                     $sql = mysqli_query($conn, "SELECT * FROM profil where id='$id'");
                     while ($b = mysqli_fetch_assoc($sql)) {
 
-                        ?>
+                    ?>
 
                         <form class="form" action="profil-edit.php" method="post">
                             <div class="box-body">
@@ -71,9 +70,9 @@ include "pondasi/kiri.php";
                                 </button>
                             </div>
                         </form>
-                    </div>
-                    <!-- /.box -->
-                </div><?php } ?>
+                </div>
+                <!-- /.box -->
+            </div><?php } ?>
 
 
 

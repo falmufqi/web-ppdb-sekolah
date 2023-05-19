@@ -53,7 +53,7 @@ $n = mysqli_fetch_assoc($p);
             <li class="active">
                 <a href="pendaftaran.php">
                     <i class="mdi mdi-file-plus"></i>
-                    <span>PPDB</span>
+                    <span>Data Pendaftar</span>
                 </a>
             </li>
             <li class="active">

@@ -34,9 +34,8 @@ include "pondasi/kiri.php";
                     <div class="box-header with-border">
                         <h4 class="box-title">Form Edit Pendaftar </h4>
                         <ul class="box-controls pull-right">
-                            <li><a class="box-btn-close" href="#"></a></li>
+                            <li><a class="box-btn-close" href="pendaftaran.php"></a></li>
                             <li><a class="box-btn-slide" href="#"></a></li>
-                            <li><a class="box-btn-fullscreen" href="#"></a></li>
                         </ul>
                     </div>
                     <!-- /.box-header -->

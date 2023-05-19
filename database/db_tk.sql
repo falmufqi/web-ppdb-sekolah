@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 08, 2023 at 04:24 AM
+-- Generation Time: May 17, 2023 at 12:26 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 5.6.40
 
@@ -213,7 +213,19 @@ INSERT INTO `ppdb` (`id`, `nama_siswa`, `tempat`, `tgl_lahir`, `jenis_kel`, `aga
 (1, 'Fabiano Milan Almufqi', 'Karawang', '2001-02-18', 'Pria', 'Islam', 'Bambang Bastomi Saad', 'Sri Meilani', 'Guru', 'Gading Elok', '01/30', 'Karawang Wetan', 'Karawang Timur', 'Karawang', 'SMAIT Harapan Umat', 'Desain Grafis', '085888323761', '081388671983', 'Instagram'),
 (3, 'Aryl Alfath Muhammad Iqbal', 'Karawang', '1996-06-17', 'Pria', 'Islam', 'Bambang Bastomi Saad', 'Sri Meilani', 'Guru', 'Gading Elok', '01/30', 'Karawang Wetan', 'Karawang Timur', 'Karawang', 'SMAIT Harapan Umat', 'Teknik Pengelasan', '085888323761', '081388671983', 'Brosusr'),
 (4, 'Daffa Widoseno Ardras', 'Karawang', '2001-02-18', 'Pria', 'Islam', 'Bambang', 'Sri', 'Guru', 'Perumnas', '12/10', 'Karawang Barat', 'Karawang Timur', 'Karawang', 'SMP Harum', 'Teknik Mesin', '081294329345', '0812289898239', 'Sosialisasi'),
-(5, 'Endah Sulistyo Ningrum', 'Makasar', '2000-03-25', 'Wanita', 'Islam', 'Jono', 'Kartini', 'Damkar', 'Cibade', '18/12', 'Cibade', 'Makasar Barat', 'Kalimantan', 'SMP Perkebunan', 'Teknik Mesin', '082363451287', '089632143214', 'Instagram');
+(5, 'Endah Sulistyo Ningrum', 'Makasar', '2000-03-25', 'Wanita', 'Islam', 'Jono', 'Kartini', 'Damkar', 'Cibade', '18/12', 'Cibade', 'Makasar Barat', 'Kalimantan', 'SMP Perkebunan', 'Teknik Mesin', '082363451287', '089632143214', 'Instagram'),
+(6, 'Btari Prabaningrum', 'Jakarta', '2000-09-18', 'Wanita', 'Islam', 'Pa mail', 'Bu mail', 'Tentara', 'Bendungan', '10/03', 'Printer', 'VGA', 'Liquid', 'SMA 69 Jakarta', 'Teknik Pengelasan', '01265478', '021569879', 'Tiktok'),
+(9, 'Sri Meilani', 'Jakarta', '2007-05-03', 'Wanita', 'Islam', 'Latief', 'Erni', 'Ketua RW', 'Perum Karawang Indah', '10/13', 'Karawang Kulon', 'Karawang Barat', 'Karawang', 'SMP 1 Karawang', 'Desain Grafis', '081388671983', '081294329345', 'Instagram'),
+(10, 'Farel Azizan Gandara', 'Karawang', '2007-02-10', 'Pria', 'Islam', 'Eka', 'Sintia', 'Wiraswasta', 'kcp', '01/01', 'Karawang Kulon', 'Karawang Barat', 'Karawang', 'SMP 1 Karawang', 'Teknik Mesin', '089878486464', '001265987845', 'Brosur'),
+(11, 'Arletha Azizah Gandara', 'Karawang', '2009-06-10', 'Wanita', 'Islam', 'Eka', 'Sintia', 'Wiraswasta', 'Bendungan', '10/13', 'Printer', 'Karawang Barat', 'Karawang', 'SMP 1 Karawang', 'Teknik Pengelasan', '09878948789', '0547895412', 'Brosur'),
+(12, 'Gebby  Dwi Puteri', 'Karawang', '2000-05-31', 'Wanita', 'Islam', 'Pono', 'Ina', 'Polisi', 'Cikampak', '01/09', 'Cikampek', 'Cikampek', 'Karawang', 'SMA 2 Cikampek', 'Teknik Pengelasan', '087898687841', '087745879863', 'Instagram'),
+(13, 'Antonly', 'Jakarta', '2006-08-07', 'Pria', 'Kristen', 'Jono', 'Andini', 'Dokter', 'KCP', '01/09', 'Ramayana', 'Karawang', 'Karawang', 'Techno', 'Teknik Mesin', '98763634511', '087898998546', 'Jono'),
+(14, 'Rizky Gusti Ananda', 'Karawang', '1996-03-06', 'Pria', 'Islam', 'Gunasah', 'Susilawati', 'Kantor', 'Guro 3', '17/12', 'Guro 3', 'Karawang Barat', 'Karawang', 'SMP 1 Karawang', 'Teknik Mesin', '087898687898', '081298684578', 'Instagram'),
+(15, 'Alnyta Yuniar', 'Bandung', '1998-01-24', 'Wanita', 'Islam', 'Pono', 'Ina', 'Polisi', 'Cikampak', '01/01', 'Ramayana', 'Karawang', 'Karawang', 'SMP 1 Karawang', 'Desain Grafis', '087898684512', '087898451232', 'Brosur'),
+(16, 'Alnyta Yuniar', 'Bandung', '1998-01-24', 'Wanita', 'Islam', 'Pono', 'Ina', 'Polisi', 'Cikampak', '01/01', 'Ramayana', 'Karawang', 'Karawang', 'SMP 1 Karawang', 'Desain Grafis', '087898684512', '087898451232', 'Brosur'),
+(17, 'China Man', 'Gorontalo', '2000-12-14', 'Pria', 'Budha', 'Pa mail', 'Sintia', 'Ketua RW', 'Bendungan', '10/13', 'Karawang Kulon', 'Cikampek', 'Karawang', 'SMA 2 Cikampek', 'Teknik Pengelasan', '021232124565', '081245651265', 'Tiktok'),
+(18, 'Tino', 'Semarang', '2012-12-12', 'Pria', 'Hindu', 'Koni', 'Tini', 'Serabutan', 'Cikupa', '12/01', 'Pratama', 'Dadan', 'Bogor', 'SMP Jono1', 'Teknik Pengelasan', '021536984125', '012345657898', 'Instagram'),
+(19, 'Lukman Nulhakim', 'Karawang', '2001-08-27', 'Pria', 'Islam', 'Gamal', 'Rina', 'Buruh Pabrik', 'Kaum 1', '01/01', 'Karawang Kulon', 'Karawang Barat', 'Karawang', 'SMP 1 Karawang', 'Teknik Mesin', '087845123265', '089812457865', 'Instagram');
 
 -- --------------------------------------------------------
 
@@ -315,7 +327,8 @@ CREATE TABLE `testi` (
 INSERT INTO `testi` (`id`, `nama`, `testi`) VALUES
 (1, 'Fabiano Milan Almufqi', 'Sekolahnya bagus, mendidik anak menjadi lebih siap dan terampil dalam dunia kerja'),
 (3, 'Daffa Widoseno Ardras', 'Sangat Berkualitas dan membuat anak menjadi lebih baik'),
-(4, 'Aryl Alfath Muhammad Iqbal', 'Sekolah yang sangat bagus dan menarik');
+(4, 'Aryl Alfath Muhammad Iqbal', 'Sekolah yang sangat bagus dan menarik'),
+(5, 'Sri Meilani', 'Bagus dan membuat anak lebih mandiri.');
 
 -- --------------------------------------------------------
 
@@ -500,7 +513,7 @@ ALTER TABLE `moto`
 -- AUTO_INCREMENT for table `ppdb`
 --
 ALTER TABLE `ppdb`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `prestasi`
@@ -530,7 +543,7 @@ ALTER TABLE `strategi`
 -- AUTO_INCREMENT for table `testi`
 --
 ALTER TABLE `testi`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `tujuan`

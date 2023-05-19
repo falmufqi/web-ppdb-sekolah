@@ -25,7 +25,7 @@ $nomor = 1;
                     <h2>Pendaftar</h2>
                     <h4 class="tagline">Berikut adalah data pendaftar</h4>
                 </div>
-                <h3 class="tagline">Silahkan klik download kartu, untuk mendownload kartu pendaftaran</h3>
+                <h3 class="tagline">Berikut adalah data data yang sudah mendaftar ke SMK Taruna Karya 1 Karawang</h3>
                 <table id="tabel-data">
                     <thead>
                         <tr>
@@ -53,7 +53,6 @@ $nomor = 1;
                                 <td><?php echo $data['tgl_lahir']; ?></td>
                                 <td><?php echo $data['agama']; ?></td>
                                 <td><?php echo $data['kecamatan']; ?></td>
-                                <!--<td><a href="kartu_daftar.php?id_pendaftar=<?= $data['id_pendaftar'] ?>">Download</a></td>-->
                             </tr>
 
                         <?php

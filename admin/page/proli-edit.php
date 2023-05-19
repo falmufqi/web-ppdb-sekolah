@@ -10,7 +10,7 @@ include "pondasi/kiri.php";
     <div class="content-header">
         <div class="d-flex align-items-center">
             <div class="mr-auto">
-                <h3 class="page-title">Edit Data Intrakulikuler</h3>
+                <h3 class="page-title">Edit Data Program Keahlian</h3>
                 <div class="d-inline-block align-items-center">
                     <nav>
 
@@ -34,9 +34,8 @@ include "pondasi/kiri.php";
                     <div class="box-header with-border">
                         <h4 class="box-title">Form Program Keahlian </h4>
                         <ul class="box-controls pull-right">
-                            <li><a class="box-btn-close" href="#"></a></li>
+                            <li><a class="box-btn-close" href="proli.php"></a></li>
                             <li><a class="box-btn-slide" href="#"></a></li>
-                            <li><a class="box-btn-fullscreen" href="#"></a></li>
                         </ul>
                     </div>
                     <!-- /.box-header -->

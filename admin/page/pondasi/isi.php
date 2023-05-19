@@ -18,6 +18,23 @@ $f = mysqli_fetch_assoc($e);
 $data_ppdb = mysqli_query($conn, "SELECT * FROM ppdb");
 $jumlah_ppdb = mysqli_num_rows($data_ppdb);
 
+$g = mysqli_query($conn, "SELECT * FROM testi");
+$h = mysqli_fetch_assoc($g);
+
+$data_testi = mysqli_query($conn, "SELECT * FROM testi");
+$jumlah_testi = mysqli_num_rows($data_testi);
+
+$i = mysqli_query($conn, "SELECT * FROM prestasi");
+$j = mysqli_fetch_assoc($i);
+
+$data_prestasi = mysqli_query($conn, "SELECT * FROM prestasi");
+$jumlah_prestasi = mysqli_num_rows($data_prestasi);
+
+$k = mysqli_query($conn, "SELECT * FROM agenda");
+$l = mysqli_fetch_assoc($k);
+
+$data_agenda = mysqli_query($conn, "SELECT * FROM agenda");
+$jumlah_agenda = mysqli_num_rows($data_agenda);
 ?>
 
 <div class="content-wrapper">
@@ -95,7 +112,6 @@ $jumlah_ppdb = mysqli_num_rows($data_ppdb);
                                 </a></span><br>
                             <span>
                                 <i class="ion-ios-arrow-up text-white"></i>
-                                <!--<span class="font-size-18 ml-1"><?php echo $b['id'] ?></span>-->
                                 <span class="font-size-18 ml-1"><?php echo $jumlah_ppdb; ?></span>
                             </span>
                         </div>
@@ -104,7 +120,56 @@ $jumlah_ppdb = mysqli_num_rows($data_ppdb);
             </div>
 
 
+            <div class="col-md-12 col-lg-4">
+                <div class="box box-body bg-danger">
+                    <div class="flexbox">
+                        <div id="linechart"></div>
+                        <div class="text-right">
+                            <span><a href="testi.php">
+                                    <font color="white">Testimoni</font>
+                                </a></span><br>
+                            <span>
+                                <i class="ion-ios-arrow-up text-white"></i>
+                                <span class="font-size-18 ml-1"><?php echo $jumlah_testi; ?></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-md-12 col-lg-4">
+                <div class="box box-body bg-info">
+                    <div class="flexbox">
+                        <div id="linechart"></div>
+                        <div class="text-right">
+                            <span><a href="prestasi.php">
+                                    <font color="white">Prestasi</font>
+                                </a></span><br>
+                            <span>
+                                <i class="ion-ios-arrow-up text-white"></i>
+                                <span class="font-size-18 ml-1"><?php echo $jumlah_prestasi; ?></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-4">
+                <div class="box box-body bg-dark">
+                    <div class="flexbox">
+                        <div id="linechart"></div>
+                        <div class="text-right">
+                            <span><a href="agenda.php">
+                                    <font color="white">Agenda</font>
+                                </a></span><br>
+                            <span>
+                                <i class="ion-ios-arrow-up text-white"></i>
+                                <span class="font-size-18 ml-1"><?php echo $jumlah_agenda; ?></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
     </section>
     <!-- /.content -->

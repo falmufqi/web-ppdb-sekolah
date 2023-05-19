@@ -34,9 +34,8 @@ include "pondasi/kiri.php";
                     <div class="box-header with-border">
                         <h4 class="box-title">Form Testiminoli </h4>
                         <ul class="box-controls pull-right">
-                            <li><a class="box-btn-close" href="#"></a></li>
+                            <li><a class="box-btn-close" href="testi.php"></a></li>
                             <li><a class="box-btn-slide" href="#"></a></li>
-                            <li><a class="box-btn-fullscreen" href="#"></a></li>
                         </ul>
                     </div>
                     <!-- /.box-header -->
@@ -45,7 +44,7 @@ include "pondasi/kiri.php";
                     $sql = mysqli_query($conn, "SELECT * FROM testi where id='$id'");
                     while ($b = mysqli_fetch_assoc($sql)) {
 
-                        ?>
+                    ?>
 
                         <form class="form" action="testi-act-edit.php" method="post">
                             <div class="box-body">
@@ -77,7 +76,7 @@ include "pondasi/kiri.php";
                                 <i class="ti-save-alt"></i> Simpan
                             </button>
                         </div>
-                    </form>
+                        </form>
                 </div>
                 <!-- /.box -->
             </div>
