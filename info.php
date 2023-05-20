@@ -69,10 +69,22 @@ $b = mysqli_fetch_assoc($sql);
                                     <div class="panel panel-default">
                                         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                                             <div class="panel-heading" role="tab" id="headingFour">
-                                                <h4 class="panel-title">Kontak Pendaftaran</h4>
+                                                <h4 class="panel-title">Alamat Sekolah</h4>
                                             </div>
                                         </a>
                                         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                            <div class="panel-body">
+                                                <?php echo $b['tempat'] ?> </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                            <div class="panel-heading" role="tab" id="headingFive">
+                                                <h4 class="panel-title">Kontak Pendaftaran</h4>
+                                            </div>
+                                        </a>
+                                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                                             <div class="panel-body">
                                                 <?php echo $b['kontak'] ?> </div>
                                         </div>

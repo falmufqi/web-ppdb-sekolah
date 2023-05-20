@@ -64,7 +64,7 @@ include "pondasi/kiri.php";
                                         </div>
                                         <div class="form-group">
                                             <label>Tempat</label>
-                                            <input type="text" name="tempat" value="<?php echo $b['tempat'] ?>" class="form-control" required>
+                                            <textarea rows="5" class="form-control" value="<?php echo $b['tempat'] ?>" name="tempat" required><?php echo $b['tempat'] ?></textarea>
                                         </div>
                                         <div class="form-group">
                                             <label>Biaya</label>

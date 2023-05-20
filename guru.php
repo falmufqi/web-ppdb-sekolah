@@ -39,9 +39,9 @@ include "pondasi/kepala.php";
                                     <a href="#stelarobson" aria-controls="stelarobson" role="tab" data-toggle="tab">
                                         <img src="admin/foto/guru/<?php echo $b['foto'] ?>" alt="" />
 
-                                        <a class="btn btn-primary" style="margin-top: 5px;"><i class="fa fa-user"></i> <?php echo $b['nama'] ?></a>
-                                        <a class="btn btn-primary" style="margin-top: 5px;"><i class="fa fa-book"></i> <?php echo $b['mapel'] ?></a>
-                                        <a href="https://mail.google.com/" class="btn btn-primary" style="margin-top: 5px; margin-bottom: 15px"><i class="fa fa-book"></i> <?php echo $b['email'] ?></a>
+                                        <a class="form-control" style="margin-top: 5px; color:#0097a7"><i class="fa fa-user"></i> <?php echo $b['nama'] ?></a>
+                                        <a class="form-control" style="margin-top: 5px; color:#0097a7;"><i class="fa fa-book"></i> <?php echo $b['mapel'] ?></a>
+                                        <a href="mailto:<?php echo $b['email'] ?>" class="form-control" style="margin-top: 5px; margin-bottom: 15px"><i class="fa fa-envelope"></i> <?php echo $b['email'] ?></a></br>
                                 </li>
                             <?php } ?>
 
