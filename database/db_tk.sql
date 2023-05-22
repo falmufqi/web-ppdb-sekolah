@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 17, 2023 at 12:26 AM
+-- Generation Time: May 22, 2023 at 04:31 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 5.6.40
 
@@ -135,7 +135,8 @@ INSERT INTO `guru` (`id`, `nama`, `mapel`, `jabatan`, `email`, `foto`) VALUES
 (17, 'Aryl Alfath Muhammad Iqbal', 'Bahasa Indonesia', 'Guru', 'aryl@gmail.com', 'Formal Ukuran 4x6.jpeg'),
 (18, 'Bambang Bastomi Saad', 'Bahasa Inggris', 'Guru', 'bambang@gmail.com', 'Formal Ukuran 4x6.jpeg'),
 (19, 'Aditya Nugroho Putra', 'Matematika', 'Guru', 'adit@gmail.com', 'Formal Ukuran 4x6.jpeg'),
-(21, 'Endah Sulistyo Ningrum', 'Susun Huruf Komputer', 'Guru', 'endah@gmail.com', 'Formal Ukuran 4x6.jpeg');
+(21, 'Endah Sulistyo Ningrum', 'Susun Huruf Komputer', 'Guru', 'endah@gmail.com', 'Formal Ukuran 4x6.jpeg'),
+(22, 'Anis Sulistyowati', 'Matematika', 'Guru', 'anis@gmail.com', 'Formal 4x6.jpg');
 
 -- --------------------------------------------------------
 
@@ -147,7 +148,7 @@ CREATE TABLE `info` (
   `id` int(5) NOT NULL,
   `jadwal` text NOT NULL,
   `syarat` text NOT NULL,
-  `tempat` varchar(100) NOT NULL,
+  `tempat` text NOT NULL,
   `biaya` varchar(100) NOT NULL,
   `kontak` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -157,7 +158,7 @@ CREATE TABLE `info` (
 --
 
 INSERT INTO `info` (`id`, `jadwal`, `syarat`, `tempat`, `biaya`, `kontak`) VALUES
-(1, 'Pendafataran Mulai 20 November 2022', 'Foto Kopi KK </br>\r\nFoto Kopi Kartu Indonesia Pintar </br>\r\nFoto 4x6 (Background Merah) </br>\r\n', 'Jl. Pangkal Perjuangan Bypass No.76, Kec. Karawang Barat, Kab. Karawang', '300.0000', '<b>0812-9342-9345<b>');
+(1, 'Pendafataran Mulai 20 November 2022', 'Foto Copy KK (Kartu Keluarga)</br>\r\nFoto Copy KIP (Kartu Indonesia Pintar)</br>\r\nFoto 4x6 (Background Merah)', 'Jl. Pangkal Perjuangan Blok STM TK No.21, RT.3/RW.27, Tanjungpura, Kec. Karawang Barat, Kab. Karawang, 41316', '300.0000', '<b>0812-9342-9345</b>');
 
 -- --------------------------------------------------------
 
@@ -225,7 +226,8 @@ INSERT INTO `ppdb` (`id`, `nama_siswa`, `tempat`, `tgl_lahir`, `jenis_kel`, `aga
 (16, 'Alnyta Yuniar', 'Bandung', '1998-01-24', 'Wanita', 'Islam', 'Pono', 'Ina', 'Polisi', 'Cikampak', '01/01', 'Ramayana', 'Karawang', 'Karawang', 'SMP 1 Karawang', 'Desain Grafis', '087898684512', '087898451232', 'Brosur'),
 (17, 'China Man', 'Gorontalo', '2000-12-14', 'Pria', 'Budha', 'Pa mail', 'Sintia', 'Ketua RW', 'Bendungan', '10/13', 'Karawang Kulon', 'Cikampek', 'Karawang', 'SMA 2 Cikampek', 'Teknik Pengelasan', '021232124565', '081245651265', 'Tiktok'),
 (18, 'Tino', 'Semarang', '2012-12-12', 'Pria', 'Hindu', 'Koni', 'Tini', 'Serabutan', 'Cikupa', '12/01', 'Pratama', 'Dadan', 'Bogor', 'SMP Jono1', 'Teknik Pengelasan', '021536984125', '012345657898', 'Instagram'),
-(19, 'Lukman Nulhakim', 'Karawang', '2001-08-27', 'Pria', 'Islam', 'Gamal', 'Rina', 'Buruh Pabrik', 'Kaum 1', '01/01', 'Karawang Kulon', 'Karawang Barat', 'Karawang', 'SMP 1 Karawang', 'Teknik Mesin', '087845123265', '089812457865', 'Instagram');
+(19, 'Lukman Nulhakim', 'Karawang', '2001-08-27', 'Pria', 'Islam', 'Gamal', 'Rina', 'Buruh Pabrik', 'Kaum 1', '01/01', 'Karawang Kulon', 'Karawang Barat', 'Karawang', 'SMP 1 Karawang', 'Teknik Mesin', '087845123265', '089812457865', 'Instagram'),
+(20, 'Nopka Immanadi', 'Karawang', '1991-11-08', 'Pria', 'Islam', 'Eka', 'Bu mail', 'Polisi', 'Cikampak', '01/09', 'Cikampek', 'Cikampek', 'Karawang', 'SMP 1 Karawang', 'Teknik Mesin', '087898684812', '087898681232', 'Tiktok');
 
 -- --------------------------------------------------------
 
@@ -495,7 +497,7 @@ ALTER TABLE `galeri_jurusan`
 -- AUTO_INCREMENT for table `guru`
 --
 ALTER TABLE `guru`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `info`
@@ -513,7 +515,7 @@ ALTER TABLE `moto`
 -- AUTO_INCREMENT for table `ppdb`
 --
 ALTER TABLE `ppdb`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `prestasi`
