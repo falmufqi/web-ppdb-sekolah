@@ -7,11 +7,11 @@
 }
 
 #kartu {
-    background-image: url('../image/demo.png');
+    background-image: url('image/demo.png');
     width: 595px;
     height: 835px;
     border: 1px solid;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 80px;
@@ -32,4 +32,12 @@
   .block:hover {
     background-color: #ddd;
     color: blue;
+  }
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex: 1 0 100%;
   }
