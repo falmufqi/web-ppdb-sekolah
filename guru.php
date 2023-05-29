@@ -39,9 +39,10 @@ include "pondasi/kepala.php";
                                     <a href="#stelarobson" aria-controls="stelarobson" role="tab" data-toggle="tab">
                                         <img src="admin/foto/guru/<?php echo $b['foto'] ?>" alt="" />
 
-                                        <a class="form-control" style="margin-top: 5px; color:#0097a7"><i class="fa fa-user"></i> <?php echo $b['nama'] ?></a>
-                                        <a class="form-control" style="margin-top: 5px; color:#0097a7;"><i class="fa fa-book"></i> <?php echo $b['mapel'] ?></a>
-                                        <a href="mailto:<?php echo $b['email'] ?>" class="form-control" style="margin-top: 5px; margin-bottom: 15px"><i class="fa fa-envelope"></i> <?php echo $b['email'] ?></a></br>
+                                        <a href="#" class="form-control" style="margin-top: 5px; color:#0097a7"><i class="fa fa-user"></i> <?php echo $b['nama'] ?></a>
+                                        <a href="#" class="form-control" style="margin-top: 5px; color:#0097a7;"><i class="fa fa-book"></i> <?php echo $b['mapel'] ?></a>
+                                        <a href="mailto:<?php echo $b['email'] ?>" class="form-control" style="margin-top: 5px; margin-bottom: 15px">
+                                            <i class="fa fa-envelope"></i> <?php echo $b['email'] ?></a></br>
                                 </li>
                             <?php } ?>
 
@@ -56,19 +57,7 @@ include "pondasi/kepala.php";
         </div>
         </div>
         </div>
-        </div>
         <!-- FEATURES SECTION END -->
-
-        <!-- CLASS AND COURSE SECTION START
-    
-     
-      
-      
-
-    
-                ============================================= -->
-
-        <!-- PRICING TABLE SECTION END -->
 
     </section>
     <!-- CONTENT END -->

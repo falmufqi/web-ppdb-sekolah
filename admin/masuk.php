@@ -23,13 +23,6 @@
     <!-- Superieur Admin skins -->
     <link rel="stylesheet" href="css/skins/_all-skins.css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
 </head>
 
 <body class="hold-transition bg-img" style="background-image: url(../image/bg_hd.jpg)" data-overlay="4">
@@ -43,8 +36,6 @@
                             <h2> <br> LOGIN ADMIN</h2>
                             <p class="text-white"></p>
                             <img src="../image/login.gif" width="120px" height="120px">
-
-
 
                         </div>
                     </div>

@@ -3,7 +3,6 @@
 include "pondasi/kepala.php";
 include "pondasi/kiri.php";
 
-
 ?>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -20,7 +19,6 @@ include "pondasi/kiri.php";
 
         </div>
     </div>
-
 
     <!-- Main content -->
     <section class="content">
@@ -55,8 +53,6 @@ include "pondasi/kiri.php";
         </div>
 
 
-
-
 </div>
 
 </section>
@@ -64,8 +60,6 @@ include "pondasi/kiri.php";
 </div>
 <?php
 
-
 include "pondasi/kaki.php";
-
 
 ?>

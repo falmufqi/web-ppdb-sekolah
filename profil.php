@@ -131,48 +131,9 @@ $b = mysqli_fetch_assoc($sql);
                 </div>
             </div>
         </div>
-
-        <!-- DATA GURU -->
-        <!--<div class="grey-background wow fadeIn">
-            <div class="container">
-                <div class="heading-block page-title wow fadeInUp">
-                    <h1>Data Guru</h1>
-                </div>
-            </div>
-        </div>
-        <div class="class-course">
-            <div class="container">
-                <div class="row">-->
-        <!-- Nav Tabs -->
-        <!--<div class="teacher-nav wow fadeInUp" role="tablist" id="planTabs">
-                        <ul class="no-margin no-padding">
-                            <?php
-                            include "admin/config/koneksi.php";
-                            $sql = mysqli_query($conn, "SELECT * FROM guru");
-                            while ($b = mysqli_fetch_assoc($sql)) {
-
-                            ?>
-                                <li role="presentation" class="col-md-3 active">
-                                    <a href="#stelarobson" aria-controls="stelarobson" role="tab" data-toggle="tab">
-                                        <img src="admin/foto/guru/<?php echo $b['foto'] ?>" alt="" />
-
-                                    </a> <a class="btn btn-primary"><i class="fa fa-user"></i> <?php echo $b['nama'] ?></a>
-                                </li>
-                            <?php } ?>
-
-                        </ul>
-                    </div>-->
-        <!-- Nav Tabs End -->
         </div>
 
-        <!-- Tab panes -->
 
-
-
-        <!-- Tab Panes End -->
-
-        </div>
-        </div>
         <script type="text/javascript">
             jQuery(window).load(function() {
                 var classDetailsHeight = jQuery('.class-item img').height();

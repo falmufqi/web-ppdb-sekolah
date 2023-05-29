@@ -123,22 +123,11 @@ include "pondasi/kepala.php";
                                 <label>Tahu SMK Taruna Karya 1 Dari mana ?</label></br>
                                 <input type="text" name="tau_smk" class="form-control" placeholder="Contoh : Brosur, Instagram. (Jika dari alumni tulis nama alumni tersebut)" style="width: 500px;" required>
                             </div>
+                            <div class="form-group">
+                                <label>Kendaraan</label></br>
+                                <input type="text" name="tau_smk" class="form-control" placeholder="Masukan Nama Kendaraan" style="width: 500px;" required>
+                            </div>
                             <p>
-                                <!--<div class="btn btn-success btn btn-outline">
-                            <a href="proces_daftar.php" style="color: black;">
-                                <blockquote><b>Daftar</b></blockquote>
-                            </a>
-                        </div>-->
-                                <!--<div>
-                            <button type="submit" name="submit" class="btn btn-success mt-1">
-                                Submit
-                            </button>
-                        </div>-->
-                                <!--<div class="btn btn-danger btn btn-outline">
-                            <a href="index.php" style="color: black;">
-                                <blockquote><b>Cancel</b></blockquote>
-                            </a>
-                        </div>-->
                             <div class="box-footer">
                                 <button type="button" class="btn btn-danger">
                                     <a href="index.php"> <strong>Batal</strong>
@@ -154,7 +143,6 @@ include "pondasi/kepala.php";
                 </div>
                 </form>
 
-
     </section>
 
     <!-- FOOTER START
@@ -168,11 +156,6 @@ include "pondasi/kepala.php";
                         <div class="col-md-15 pull-left wow fadeInUp">
                             <h2>Terimakasih Sudah Mendaftar di SMK Taruna Karya 1 Karawang !</h2>
                         </div>
-
-                        <!--<div class="col-md-4 wow fadeInUp">
-                            <div class="button-normal white pull-right">
-                                <a href="#" class="no-margin">Daftar!</a>
-                            </div>-->
                     </div>
                 </div>
             </div>

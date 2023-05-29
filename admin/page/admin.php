@@ -3,13 +3,14 @@
 include "pondasi/kepala.php";
 include "pondasi/kiri.php";
 
+
 ?>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
         <div class="d-flex align-items-center">
             <div class="mr-auto">
-                <h3 class="page-title">Data Program Keahlian</h3>
+                <h3 class="page-title">Data Admin</h3>
                 <div class="d-inline-block align-items-center">
                     <nav>
 
@@ -20,15 +21,18 @@ include "pondasi/kiri.php";
         </div>
     </div>
 
+
     <!-- Main content -->
     <section class="content">
 
         <div class="row">
 
+
+
             <div class="col-12">
                 <div class="box">
                     <div class="box-header with-border">
-                        <h4 class="box-title"><a href="proli-tbh.php" class="btn btn-success"><i class="fa fa-plus"></i> Tambah Data</a>
+                        <h4 class="box-title"><a href="admin-tbh.php" class="btn btn-success"><i class="fa fa-plus"></i> Tambah Admin</a>
                             <div class="box-controls pull-right">
 
                             </div>
@@ -39,31 +43,36 @@ include "pondasi/kiri.php";
                             <table class="table table-hover">
                                 <tr>
                                     <th>Id</th>
-                                    <th>Nama Program Keahlian</th>
-                                    <th>Info Detail </th>
+                                    <th>Nama Pengguna</th>
+                                    <th>Username </th>
+                                    <th>Level </th>
 
                                     <th>Aksi</th>
                                 </tr>
                                 <?php
-                                $sql = mysqli_query($conn, "SELECT * FROM proli");
+                                $sql = mysqli_query($conn, "SELECT * FROM admin");
                                 while ($b = mysqli_fetch_assoc($sql)) {
                                     echo "
                                     <tr>
                                     <td>" . $b['id'] . "                     
                                     </td>
-                                    <td>" . $b['nama'] . "
+                                    <td>" . $b['nm_user'] . "
                                     </td>
-                                    <td>" . $b['detail'] . "
+                                    <td>" . $b['username'] . "
+                                    </td>
+                                    <td>" . $b['level'] . "
                                     </td>
 
                                     <td>
-                                    <a href='proli-edit.php?id=" . $b['id'] . "' class='btn btn-primary'><i class='fa fa-edit'></i></a>
-                                    <a href='proli-hapus.php?id=" . $b['id'] . "' class='btn btn-danger'><i class='fa fa-trash'></i></a>
+                                    <a href='admin-edit.php?id=" . $b['id'] . "' class='btn btn-primary'><i class='fa fa-edit'></i></a>
+                                    <a href='admin-hapus.php?id=" . $b['id'] . "' class='btn btn-danger'><i class='fa fa-trash'></i></a>
                                     </td>
                                 </tr>
                                     ";
                                 }
                                 ?>
+
+
 
                             </table>
                         </div>
@@ -81,6 +90,8 @@ include "pondasi/kiri.php";
 </div>
 <?php
 
+
 include "pondasi/kaki.php";
+
 
 ?>

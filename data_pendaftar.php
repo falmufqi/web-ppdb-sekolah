@@ -11,10 +11,6 @@ $nomor = 1;
 
 <body>
 
-    <!-- MAIN WRAPPER START
-        ============================================= -->
-    <!-- HEADER END -->
-
     <!-- CONTENT START
             ============================================= -->
     <section id="content" class="single-wrapper">
@@ -63,17 +59,6 @@ $nomor = 1;
             </div>
             <!-- FEATURES SECTION END -->
 
-            <!-- CLASS AND COURSE SECTION START
-    
-     
-      
-      
-
-    
-                ============================================= -->
-
-            <!-- PRICING TABLE SECTION END -->
-
     </section>
     <!-- CONTENT END -->
 
@@ -105,9 +90,6 @@ $nomor = 1;
     include "pondasi/kaki.php";
     ?>
     <!-- COPYRIGHT END -->
-
-    </div>
-    <!-- MAIN WRAPPER END -->
 
     <!-- Footer Scripts
         ============================================= -->

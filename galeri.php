@@ -46,9 +46,6 @@ include "pondasi/kepala.php";
         </div>
         <!-- Gallery Items End -->
 
-        <!-- infinite load button start -->
-
-        <!-- Gallery Script End -->
     </div>
     </div>
     <!-- GALLERY END -->

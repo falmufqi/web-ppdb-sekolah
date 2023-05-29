@@ -3,7 +3,6 @@
 include "pondasi/kepala.php";
 include "pondasi/kiri.php";
 
-
 ?>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -28,16 +27,8 @@ include "pondasi/kiri.php";
 
         <div class="row">
 
-
-
             <div class="col-12">
                 <div class="box">
-                    <!--<div class="box-header with-border">
-                        <h4 class="box-title"><a href="proli-tbh.php" class="btn btn-success"><i class="fa fa-plus"></i> Tambah Data</a>
-                            <div class="box-controls pull-right">
-
-                            </div>
-                    </div>-->
                     <!-- /.box-header -->
                     <div class="box-body no-padding" id="tabel">
                         <div class="table-responsive">
@@ -78,8 +69,6 @@ include "pondasi/kiri.php";
                                     ";
                                 }
                                 ?>
-
-
 
                             </table>
                         </div>
@@ -140,13 +129,6 @@ include "pondasi/kiri.php";
                 <!-- /.box -->
             </div>
 
-
-
-
-
-
-
-
         </div>
         <!-- /.row -->
 
@@ -155,8 +137,6 @@ include "pondasi/kiri.php";
 </div>
 <?php
 
-
 include "pondasi/kaki.php";
-
 
 ?>

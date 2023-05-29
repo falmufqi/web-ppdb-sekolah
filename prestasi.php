@@ -53,17 +53,6 @@ include "pondasi/kepala.php";
         </div>
         <!-- FEATURES SECTION END -->
 
-        <!-- CLASS AND COURSE SECTION START
-    
-     
-      
-      
-
-    
-                ============================================= -->
-
-        <!-- PRICING TABLE SECTION END -->
-
     </section>
     <!-- CONTENT END -->
 

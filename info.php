@@ -61,7 +61,7 @@ $b = mysqli_fetch_assoc($sql);
                                             </div>
                                         </a>
                                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                            <div class="panel-body">
+                                            <div class="panel-body">Rp.
                                                 <?php echo $b['biaya'] ?> </div>
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@ $b = mysqli_fetch_assoc($sql);
                                 </div>
                                 <h4> Untuk Informasi lebih lanjut silahkan hubungi kami dibawah ini</h4>
                                 <h5>
-                                    <li class="fa fa-whatsapp"><a href="https://api.whatsapp.com/send?text=Hai&nbsp;Kak&nbsp;Aku&nbsp;Mau&nbsp;Nanya-nanya&nbsp;Lagi&nbsp;Dong&nbsp;Masih&nbsp;Ada&nbsp;Yang&nbsp;Belum&nbsp;Dimengerti&nbsp;!&phone=6281294329345"> Hubungi Kami</a></li>
+                                    <li class="fa fa-whatsapp"><a href="https://api.whatsapp.com/send?text=Hai&nbsp;Kak&nbsp;Aku&nbsp;Mau&nbsp;Nanya-nanya&nbsp;Lagi&nbsp;Dong&nbsp;Masih&nbsp;Ada&nbsp;Yang&nbsp;Belum&nbsp;Dimengerti&nbsp;!&phone=6285775020604"> Hubungi Kami</a></li>
                                 </h5>
 
                             </div>
@@ -110,17 +110,6 @@ $b = mysqli_fetch_assoc($sql);
             </div>
         </div>
         <!-- FEATURES SECTION END -->
-
-        <!-- CLASS AND COURSE SECTION START
-    
-     
-      
-      
-
-    
-                ============================================= -->
-
-        <!-- PRICING TABLE SECTION END -->
 
     </section>
     <!-- CONTENT END -->

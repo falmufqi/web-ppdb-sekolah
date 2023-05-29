@@ -70,9 +70,6 @@ include "pondasi/kiri.php";
                     } ?>
                 </div>
 
-
-
-
         </div>
 
         <!-- End Content-->
@@ -102,8 +99,6 @@ include "pondasi/kiri.php";
 </div>
 <?php
 
-
 include "pondasi/kaki.php";
-
 
 ?>

@@ -97,11 +97,17 @@ $hasi = mysqli_fetch_array($que);
                                 <!-- Menu Body -->
                                 <li class="user-body">
 
+                                    <a class="dropdown-item" href="admin.php"><i class="ion-plus-circled"></i> Tambah Admin</a>
+                                    <div class="dropdown-divider"></div>
+                                </li>
+                                <li class="user-body">
+
                                     <a class="dropdown-item" href="keluar.php"><i class="ion-log-out"></i> Logout</a>
                                     <div class="dropdown-divider"></div>
                                 </li>
                             </ul>
                         </li>
+
 
                         <!-- Messages -->
 

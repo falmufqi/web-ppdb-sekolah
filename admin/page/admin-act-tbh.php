@@ -14,13 +14,12 @@ $que = mysqli_query($conn, "SELECT * FROM admin ");
 $hasi = mysqli_fetch_array($que);
 
 
-$a = $_POST['judul'];
-$b = $_POST['detail'];
-$c = $_POST['tentang'];
-$d = $_POST['tgl'];
+$a = $_POST['nm_user'];
+$b = $_POST['username'];
+$c = $_POST['password'];
+$d = $_POST['level'];
 
 
 
-
-mysqli_query($conn, "INSERT INTO agenda (judul, detail, tentang, tgl) VALUES ('$a','$b','$c','$d')");
-header('location:agenda.php');
+mysqli_query($conn, "INSERT INTO admin (nm_user,username,password,level) VALUES ('$a','$b','$c','$d')");
+header('location:admin.php');

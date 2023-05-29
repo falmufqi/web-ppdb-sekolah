@@ -33,14 +33,6 @@
         ============================================= -->
     <title>SMK Taruna Karya 1 Karawang</title>
 
-    <!--[if gte IE 9]>
-          <style type="text/css">
-            .gradient {
-               filter: none;
-            }
-          </style>
-        <![endif]-->
-
 
 
 </head>
