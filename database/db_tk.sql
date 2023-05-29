@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 22, 2023 at 04:31 AM
+-- Generation Time: May 29, 2023 at 03:59 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 5.6.40
 
@@ -41,8 +41,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `nm_user`, `username`, `password`, `level`) VALUES
-(1, 'hafiz', 'admin', 'admin', 'admin'),
-(2, 'Fabiano Milan Almufqi', 'fabian', 'fabian', 'admin');
+(1, 'Taruna Karya 1', 'admin', 'admin', 'admin');
 
 -- --------------------------------------------------------
 
@@ -63,10 +62,9 @@ CREATE TABLE `agenda` (
 --
 
 INSERT INTO `agenda` (`id`, `judul`, `detail`, `tentang`, `tgl`) VALUES
-(1, 'Latihan Upacara Bendera', 'Mengajarkan anak untuk disiplin anak', 'Kepedulian ', '2022-10-24'),
-(3, 'Jumsih', 'Dalam rangka membersihkan fasilitas sekolah di hari Jumat', 'Bersih-bersih', '2022-11-25'),
-(4, 'Pramuka', 'Siswa melakukan latihan pramuka', 'PBB', '2023-12-21'),
-(5, 'Ujian Tengah Semester', 'Ujian Tengah Semester Genap yang dilakukan secara online menggunakan Google Form.', 'Ujian Tengah Semester', '2023-03-06');
+(1, 'Jumat Bersih', 'Jumat berish bersih sekolah', 'Jumsih', '2023-05-05'),
+(2, 'Pramuka', 'Menjalankan Eskul Pramuka', 'Pramuka', '2023-05-04'),
+(3, 'Mapala', 'Mendaki gunung bersama pelatih', 'Naik Gunung', '2023-05-06');
 
 -- --------------------------------------------------------
 
@@ -85,11 +83,10 @@ CREATE TABLE `galeri` (
 --
 
 INSERT INTO `galeri` (`id`, `ket`, `foto`) VALUES
-(2, 'hotel jatra', 'jelang-pemilukada-masyarakat-harapkan-pemimpin-yang-mampu-majukan-kabupaten-tanggamus-01.png'),
-(3, 'Seminar', '1412379p.jpg'),
-(4, 'adDD', 'ByJAPqZCYAEpJ07.jpg'),
-(7, 'Homevisit', 'WhatsApp Image 2023-03-22 at 10.37.45.jpeg'),
-(8, 'Homevisit', 'Formal 4x6.jpg');
+(15, 'Ulangtahun', 'WhatsApp Image 2023-05-29 at 20.34.52.jpeg'),
+(16, 'Ulangtahun', 'WhatsApp Image 2023-05-29 at 20.34.51 (1).jpeg'),
+(17, 'Ulangtahun', 'WhatsApp Image 2023-05-29 at 20.34.51 (1).jpeg'),
+(18, 'Ulangtahun', 'WhatsApp Image 2023-05-29 at 20.34.52.jpeg');
 
 -- --------------------------------------------------------
 
@@ -108,7 +105,9 @@ CREATE TABLE `galeri_jurusan` (
 --
 
 INSERT INTO `galeri_jurusan` (`id`, `ket_jur`, `foto_jur`) VALUES
-(2, 'Mengelas', 'Foto Urangg.jpeg');
+(1, 'Ulangtahun', 'WhatsApp Image 2023-05-29 at 20.34.51.jpeg'),
+(2, 'Ulangtahun', 'WhatsApp Image 2023-05-29 at 20.34.51.jpeg'),
+(3, 'Ulangtahun', 'WhatsApp Image 2023-05-29 at 20.34.51.jpeg');
 
 -- --------------------------------------------------------
 
@@ -158,7 +157,7 @@ CREATE TABLE `info` (
 --
 
 INSERT INTO `info` (`id`, `jadwal`, `syarat`, `tempat`, `biaya`, `kontak`) VALUES
-(1, 'Pendafataran Mulai 20 November 2022', 'Foto Copy KK (Kartu Keluarga)</br>\r\nFoto Copy KIP (Kartu Indonesia Pintar)</br>\r\nFoto 4x6 (Background Merah)', 'Jl. Pangkal Perjuangan Blok STM TK No.21, RT.3/RW.27, Tanjungpura, Kec. Karawang Barat, Kab. Karawang, 41316', '300.0000', '<b>0812-9342-9345</b>');
+(1, 'Pendaftaran 20 November 2022 (Gelombang 1) </br>\r\nPendaftaran 1 Januari 2023 (Gelombang 2) </br>\r\nPendaftaran 1 Maret 2023 (Gelombang 3) </br>\r\nPendaftaran 1 Mei 2023 (Gelombang 4) </br>', 'Foto Copy KK (Kartu Keluarga)</br>\r\nFoto Copy KIP (Kartu Indonesia Pintar)</br>\r\nFoto 4x6 Background Merah (2 Pcs)</br>\r\nFoto Copy Akta </br>\r\nFoto Copy Transkrip Nilai Legalisir (2 Pcs)</br>\r\nFoto Copy Ijazah Legalisir (2 Pcs)</br>', 'Jl. Pangkal Perjuangan Blok STM TK No.21, RT.3/RW.27, Tanjungpura, Kec. Karawang Barat, Kab. Karawang, 41316', '300.0000', '<b>0857-7502-0604</b>');
 
 -- --------------------------------------------------------
 
@@ -227,7 +226,11 @@ INSERT INTO `ppdb` (`id`, `nama_siswa`, `tempat`, `tgl_lahir`, `jenis_kel`, `aga
 (17, 'China Man', 'Gorontalo', '2000-12-14', 'Pria', 'Budha', 'Pa mail', 'Sintia', 'Ketua RW', 'Bendungan', '10/13', 'Karawang Kulon', 'Cikampek', 'Karawang', 'SMA 2 Cikampek', 'Teknik Pengelasan', '021232124565', '081245651265', 'Tiktok'),
 (18, 'Tino', 'Semarang', '2012-12-12', 'Pria', 'Hindu', 'Koni', 'Tini', 'Serabutan', 'Cikupa', '12/01', 'Pratama', 'Dadan', 'Bogor', 'SMP Jono1', 'Teknik Pengelasan', '021536984125', '012345657898', 'Instagram'),
 (19, 'Lukman Nulhakim', 'Karawang', '2001-08-27', 'Pria', 'Islam', 'Gamal', 'Rina', 'Buruh Pabrik', 'Kaum 1', '01/01', 'Karawang Kulon', 'Karawang Barat', 'Karawang', 'SMP 1 Karawang', 'Teknik Mesin', '087845123265', '089812457865', 'Instagram'),
-(20, 'Nopka Immanadi', 'Karawang', '1991-11-08', 'Pria', 'Islam', 'Eka', 'Bu mail', 'Polisi', 'Cikampak', '01/09', 'Cikampek', 'Cikampek', 'Karawang', 'SMP 1 Karawang', 'Teknik Mesin', '087898684812', '087898681232', 'Tiktok');
+(20, 'Nopka Immanadi', 'Karawang', '1991-11-08', 'Pria', 'Islam', 'Eka', 'Bu mail', 'Polisi', 'Cikampak', '01/09', 'Cikampek', 'Cikampek', 'Karawang', 'SMP 1 Karawang', 'Teknik Mesin', '087898684812', '087898681232', 'Tiktok'),
+(21, 'Maryam', 'Bandung', '2000-02-14', 'Wanita', 'Islam', 'Eka', 'Sintia', 'Tentara', 'kcp', '01/09', 'Ramayana', 'Cikampek', 'Karawang', 'Techno', 'Teknik Pengelasan', '087898687845', '124565451232', 'Instagram'),
+(22, 'Dani', 'Bekasi', '2000-04-04', 'Pria', 'Kristen', 'Pa imron', 'Bu Neni', 'PNS', 'Perum Karawang Indah', '10/03', 'Printer', 'VGA', 'Liquid', 'SMA 2 Cikampek', 'Teknik Mesin', '08787987987', '5778415264', 'Tono'),
+(23, 'Tono', 'Padang', '2012-12-12', 'Pria', 'Islam', 'pa jana', 'bu emi', 'kantoran', 'Bendungan', '01/01', 'Printer', 'VGA', 'Liquid', 'SMA 69 Jakarta', 'Teknik Pengelasan', '087898681232', '087845122146', 'Brosur'),
+(24, 'Alnyta Yuniar', 'Gorontalo', '2012-12-12', 'Pria', 'Islam', 'Latief', 'Erni', 'Tentara', 'Perum Karawang Indah', '10/03', 'Cikampek', 'Cikampek', 'Liquid', 'SMA 2 Cikampek', 'Teknik Pengelasan', '087898641232', '078532114545', 's');
 
 -- --------------------------------------------------------
 
@@ -247,9 +250,9 @@ CREATE TABLE `prestasi` (
 --
 
 INSERT INTO `prestasi` (`id`, `prestasi`, `detail`, `tgl`) VALUES
-(1, 'Juara Paskibraka', 'Juara Paskibra Se-Kabupaten', '2023-03-08'),
-(2, 'Juara Matematika', 'Juara Matematika Se-Indonesia', '2023-03-11'),
-(3, 'Juara Volly', 'Juara bermain volly Se-Indonesia', '2023-03-02');
+(1, 'Juara Volly', 'Menjadi juara Volly Se-Kabupaten Karawang', '2023-05-01'),
+(2, 'Juara Futsal', 'Menjadi Juara Futsal Se-Kabupaten Karawang', '2023-05-02'),
+(3, 'Juara Cerdas Cermat', 'Menjadi Juara Cerdas Cermat Se-Provinsi Jawa Barat', '2023-05-03');
 
 -- --------------------------------------------------------
 
@@ -306,9 +309,9 @@ CREATE TABLE `strategi` (
 --
 
 INSERT INTO `strategi` (`id`, `strategi`) VALUES
-(1, 'Meningkatkan Jumlah Siswa hingga 3 Rombel masing-masing jurusan'),
-(4, 'Menciptakan suasana kerja yang handal'),
-(5, 'Menjadi Siswa Berilmu dan Beriman');
+(1, 'Mendidik anak menjadi teladan yang baik'),
+(2, 'Mendidik sesuai perkembangan anak'),
+(3, 'Mendidik yang tidak monoton');
 
 -- --------------------------------------------------------
 
@@ -327,10 +330,10 @@ CREATE TABLE `testi` (
 --
 
 INSERT INTO `testi` (`id`, `nama`, `testi`) VALUES
-(1, 'Fabiano Milan Almufqi', 'Sekolahnya bagus, mendidik anak menjadi lebih siap dan terampil dalam dunia kerja'),
-(3, 'Daffa Widoseno Ardras', 'Sangat Berkualitas dan membuat anak menjadi lebih baik'),
-(4, 'Aryl Alfath Muhammad Iqbal', 'Sekolah yang sangat bagus dan menarik'),
-(5, 'Sri Meilani', 'Bagus dan membuat anak lebih mandiri.');
+(1, 'Fabiano Milan Almufqi', 'Sekolahnya bagus dan akan berkembang !'),
+(2, 'Neng Hera Nuraeni', 'Sekolah yang berkembang pesat !'),
+(3, 'Anis Sulistyowati', 'Pengajarnya yang handal !'),
+(4, 'Nopka Immanadi', 'Alat Praktik Yang Lengkap !');
 
 -- --------------------------------------------------------
 
@@ -348,9 +351,9 @@ CREATE TABLE `tujuan` (
 --
 
 INSERT INTO `tujuan` (`id`, `tujuan`) VALUES
-(1, 'Mendidik siswa menjadi anak teladan'),
-(2, 'Menguasai Dunia'),
-(3, 'Menjadi sekolah Go International');
+(1, 'Menjadi sekolah Go International'),
+(2, 'Menjadikan Sekolah Terbaik Se-Karawang'),
+(3, 'Membuat lulusan yang siap bekerja');
 
 -- --------------------------------------------------------
 
@@ -473,25 +476,25 @@ ALTER TABLE `visimisi`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `agenda`
 --
 ALTER TABLE `agenda`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `galeri`
 --
 ALTER TABLE `galeri`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `galeri_jurusan`
 --
 ALTER TABLE `galeri_jurusan`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `guru`
@@ -515,7 +518,7 @@ ALTER TABLE `moto`
 -- AUTO_INCREMENT for table `ppdb`
 --
 ALTER TABLE `ppdb`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `prestasi`
@@ -539,13 +542,13 @@ ALTER TABLE `proli`
 -- AUTO_INCREMENT for table `strategi`
 --
 ALTER TABLE `strategi`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `testi`
 --
 ALTER TABLE `testi`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `tujuan`
